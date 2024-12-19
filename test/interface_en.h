@@ -6,17 +6,17 @@ private:
 	void display_en()
 	{
 		int choice;
-		std::cout << "ИТ-11 Первый курс:" << std::endl;
+		std::cout << "IT-11 First year:" << std::endl;
 		std::cout << std::endl;
 
-		std::cout << "1) Первый семестр" << std::endl;
-		std::cout << "2) Второй семестр" << std::endl;
+		std::cout << "1) First semester" << std::endl;
+		std::cout << "2) Second semester" << std::endl;
 		std::cout << std::endl;
 
 		std::cout << "0) Back" << std::endl;
 		std::cout << std::endl;
 
-		std::cout << "Выберите семестр: "; std::cin >> choice;
+		std::cout << "Select semester: "; std::cin >> choice;
 
 		switch (choice)
 		{
@@ -38,17 +38,17 @@ private:
 	void display2_en()
 	{
 		int choice;
-		std::cout << "ИТ-21 Второй курс:" << std::endl;
+		std::cout << "IT-21 Second year:" << std::endl;
 		std::cout << std::endl;
 
-		std::cout << "1) Третий семестр" << std::endl;
-		std::cout << "2) Четвертый семестр" << std::endl;
+		std::cout << "1) Third semester" << std::endl;
+		std::cout << "2) Fourth semester" << std::endl;
 		std::cout << std::endl;
 
 		std::cout << "0) Back" << std::endl;
 		std::cout << std::endl;
 
-		std::cout << "Выберите семестр: "; std::cin >> choice;
+		std::cout << "Select a semester: "; std::cin >> choice;
 	}
 
 public:
@@ -68,17 +68,17 @@ public:
 		while (choice != 0)
 		{
 			system("cls");
-			std::cout << "My laboratory works for C++ по PPP " << std::endl;
+			std::cout << "My laboratory works for C++ on PPP " << std::endl;
 			std::cout << std::endl;
 
-			std::cout << "1) Первый курс" << std::endl;
-			std::cout << "2) Второй курс" << std::endl;
+			std::cout << "1) First year" << std::endl;
+			std::cout << "2) Second year" << std::endl;
 			std::cout << std::endl;
 
-			std::cout << "0) Выход из программы" << std::endl;
+			std::cout << "0) Exit program" << std::endl;
 			std::cout << std::endl;
 
-			std::cout << "Выберите курс: "; std::cin >> choice;
+			std::cout << "Select a course: "; std::cin >> choice;
 
 			switch (choice)
 			{
